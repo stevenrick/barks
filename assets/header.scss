@@ -9,10 +9,10 @@ header {
 header .title {
     font-family: $title-font, serif;
     font-size: 52px;
-    text-decoration: none;
+    text-decoration: none !important;
     margin: 0;
     padding: 0;
-    color: $text-color;
+    color: $text-color !important;
     font-display: swap;
 }
 

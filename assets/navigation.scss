@@ -8,9 +8,16 @@ nav {
 }
 
 nav a {
-    display: inline-block;
     color: $link-color;
     text-decoration: none;
+}
+
+.navbar-nav {
+    font-size: 24px !important;
+}
+
+.nav-link {
+    color: $link-color !important;
 }
 
 nav a::after {
@@ -25,6 +32,11 @@ nav a::after {
 
 nav a:hover::after {
     width: 100%;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
